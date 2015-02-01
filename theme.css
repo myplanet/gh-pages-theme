@@ -82,6 +82,9 @@ body > nav ul > li > a:hover {
     color: #f05a28;
     text-decoration: none;
 }
+article h3, article h4 {
+    margin-top: 40px;
+}
 article p {
     margin: 0 0 20px;
 }
@@ -148,7 +151,7 @@ section {
 .showcase {
     margin-bottom: 40px;
     background: #f0f0f0;
-    padding: 60px 0 50px;
+    padding: 20px 0 40px;
 }
 .showcase-example {
     width: 300px;
