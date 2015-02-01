@@ -42,6 +42,28 @@ pre {
     font-family: monospace;
     margin: 0 0 20px;
 }
+ol, ul {
+    margin: 0 0 20px;
+    padding: 0 0 0 1em;
+    line-height: 1.5em;
+    list-style-position: inside;
+}
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+dl {
+    margin: 0 0 20px;
+    line-height: 1.5em;
+}
+dl dt {
+    font-family: TradeGothic, sans-serif;
+    color: #f05a28;
+    font-weight: bold;
+}
+dl dd {
+    margin: 0 0 0 1em;
+}
 blockquote {
     margin: 0 0 20px 1em;
     border-left: 5px solid #f4f4f4;
