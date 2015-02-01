@@ -134,6 +134,7 @@ article thead td, article thead th {
 }
 article thead td {
     color: #f05a28;
+    font-weight: bold;
 }
 article th {
     text-align: left;
