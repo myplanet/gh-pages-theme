@@ -86,11 +86,13 @@ article p {
     margin: 0 0 20px;
 }
 article pre {
-    background: #f0f0f0;
     border-radius: 4px;
-    padding: 10px;
     font-family: monospace;
     margin: 0 0 20px;
+}
+article code {
+    border-radius: 4px;
+    padding: 10px !important;
 }
 article ol, article ul {
     margin: 0 0 20px;
@@ -159,7 +161,7 @@ section {
 .showcase-content > h3 {
     color: #f05a28;
 }
-.showcase-content > pre {
+.showcase-content code {
     background: #fff;
 }
 .showcase-content:after {

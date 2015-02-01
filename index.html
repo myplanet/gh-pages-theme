@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta encoding="UTF-8" />
-<link rel="icon" type="image/png" href="assets/favicon.png" />
-<link rel="stylesheet" href="assets/fonts.css" />
-<link rel="stylesheet" href="theme.css" />
-<title>gh-pages-theme</title>
+    <meta encoding="UTF-8" />
+    <title>gh-pages-theme</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="assets/fonts.css" />
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <header>
@@ -38,12 +41,12 @@
 
                     <h4>Showcase Code Block</h4>
 
-                    <pre>
-function () {
-    return;
-}
-<!--
-                    --></pre>
+                    <pre><code class="lang-js"><!--
+-->myModule
+    .controller('main', function () {
+        // Do something
+    });<!--
+                    --></code></pre>
                 </div>
             </div>
         </section>
@@ -112,13 +115,13 @@ function () {
 
                 <h4>Code Block</h4>
 
-                <pre>
-angular
+                <pre><code class="lang-js"><!--
+-->angular
     .module('app.module', [ 'mp.example' ])
     .controller('main', function ($scope) {
-        $scope.message = 'Hello';
+        $scope.message = 'Hello'; // A message to the world
     });<!--
-                --></pre>
+                --></code></pre>
 
                 <h4>Blockquote</h4>
 
