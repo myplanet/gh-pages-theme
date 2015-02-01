@@ -42,6 +42,31 @@ pre {
     font-family: monospace;
     margin: 0 0 20px;
 }
+blockquote {
+    margin: 0 0 20px 1em;
+    border-left: 5px solid #f4f4f4;
+    padding: 0 0 0 1em;
+    font-style: italic;
+}
+table {
+    margin: 0 0 20px 0;
+    width: 100%;
+    font-family: TradeGothic, sans-serif;
+}
+table td, table th {
+    border-bottom: 1px dotted #cccccc;
+    padding: .5em 0;
+}
+table thead td, table thead th {
+    padding-top: 0;
+}
+table thead td {
+    color: #f05a28;
+}
+table th {
+    text-align: left;
+    font-weight: bold;
+}
 body > header {
     background: #232323;
     padding-top: 120px;
