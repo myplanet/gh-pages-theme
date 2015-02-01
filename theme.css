@@ -25,9 +25,6 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
 }
-p {
-    margin: 0 0 20px;
-}
 a {
     text-decoration: none;
     color: #f05a28;
@@ -35,59 +32,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-pre {
-    background: #f0f0f0;
-    border-radius: 4px;
-    padding: 10px;
-    font-family: monospace;
-    margin: 0 0 20px;
-}
-ol, ul {
-    margin: 0 0 20px;
-    padding: 0 0 0 1em;
-    line-height: 1.5em;
-    list-style-position: inside;
-}
-li {
-    padding-left: 1em;
-    text-indent: -1em;
-}
-dl {
-    margin: 0 0 20px;
-    line-height: 1.5em;
-}
-dl dt {
-    font-family: TradeGothic, sans-serif;
-    color: #f05a28;
-    font-weight: bold;
-}
-dl dd {
-    margin: 0 0 0 1em;
-}
-blockquote {
-    margin: 0 0 20px 1em;
-    border-left: 5px solid #f4f4f4;
-    padding: 0 0 0 1em;
-    font-style: italic;
-}
-table {
-    margin: 0 0 20px 0;
-    width: 100%;
-    font-family: TradeGothic, sans-serif;
-}
-table td, table th {
-    border-bottom: 1px dotted #cccccc;
-    padding: .5em 0;
-}
-table thead td, table thead th {
-    padding-top: 0;
-}
-table thead td {
-    color: #f05a28;
-}
-table th {
-    text-align: left;
-    font-weight: bold;
+.content-wrap {
+    width: 620px;
+    margin: 0 auto;
 }
 body > header {
     background: #232323;
@@ -134,12 +81,65 @@ body > nav ul > li > a:hover {
     background: #fff;
     color: #f05a28;
 }
+article p {
+    margin: 0 0 20px;
+}
+article pre {
+    background: #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace;
+    margin: 0 0 20px;
+}
+article ol, article ul {
+    margin: 0 0 20px;
+    padding: 0 0 0 1em;
+    line-height: 1.5em;
+    list-style-position: inside;
+}
+article li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+article dl {
+    margin: 0 0 20px;
+    line-height: 1.5em;
+}
+article dl dt {
+    font-family: TradeGothic, sans-serif;
+    color: #f05a28;
+    font-weight: bold;
+}
+article dl dd {
+    margin: 0 0 0 1em;
+}
+article blockquote {
+    margin: 0 0 20px 1em;
+    border-left: 5px solid #f4f4f4;
+    padding: 0 0 0 1em;
+    font-style: italic;
+}
+article table {
+    margin: 0 0 20px 0;
+    width: 100%;
+    font-family: TradeGothic, sans-serif;
+}
+article td, article th {
+    border-bottom: 1px dotted #cccccc;
+    padding: .5em 0;
+}
+article thead td, article thead th {
+    padding-top: 0;
+}
+article thead td {
+    color: #f05a28;
+}
+article th {
+    text-align: left;
+    font-weight: bold;
+}
 section {
     clear: both;
-}
-.content-wrap {
-    width: 620px;
-    margin: 0 auto;
 }
 .showcase {
     margin-bottom: 40px;
