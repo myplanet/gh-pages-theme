@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 100%;
+}
+body > header {
+    background: #232323;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+body > header > h1 {
+    color: #fff;
+    font-size: 3em;
+    font-family: TradeGothic, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 15px;
+}
+body > header > h2 {
+    color: #f05a28;
+    font-size: 2.25em;
+    font-family: TradeGothic, sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+body > nav {
+    background: #f05a28;
+    font-family: TradeGothic, sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0;
+}
+body > nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body > nav > ul > li {
+    display: inline;
+    font-size: 16px;
+}
+body > nav > ul > li > a {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: .75em;
+    margin: 0 5px;
+}
+body > nav > ul > li > a:hover {
+    background: #fff;
+    color: #f05a28;
+}
+.content-wrap {
+    width: 620px;
+    margin: 0 auto;
+}
+.showcase {
+    margin: 40px 0;
+    background: #f0f0f0;
+    padding: 60px 0 50px;
+}
+.showcase-example {
+    width: 300px;
+    float: left;
+    background: #fff;
+}
+.showcase-content {
+    margin-left: 320px;
+}
+.showcase-content > h3 {
+    color: #f05a28;
+    font-family: TradeGothic, sans-serif;
+    font-weight: normal;
+    font-size: 1.75em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.showcase-content > h4 {
+    color: #000;
+    font-family: TradeGothic, sans-serif;
+    font-weight: bold;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.showcase-content > p {
+    font-size: .75em;
+    font-family: Plantin, serif;
+    margin-bottom: 20px;
+}
+.showcase-content > pre {
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.showcase-content:after {
+    content: '';
+    display: block;
+    clear: left;
+}
