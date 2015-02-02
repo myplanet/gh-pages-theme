@@ -208,6 +208,7 @@ body > footer .love {
     background: url(assets/love-bg.png);
     text-indent: -9999px;
 }
+/*
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and ( min--moz-device-pixel-ratio: 2),
@@ -233,3 +234,4 @@ only screen and ( min-resolution: 2dppx)
         background-size: 50%;
     }
 }
+*/
