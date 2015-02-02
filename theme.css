@@ -208,7 +208,6 @@ body > footer .love {
     background: url(assets/love-bg.png);
     text-indent: -9999px;
 }
-/*
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and ( min--moz-device-pixel-ratio: 2),
@@ -219,19 +218,18 @@ only screen and ( min-resolution: 2dppx)
 {
     body > header {
         background-image: url(assets/header-bg-x2.png);
-        background-size: 50%;
+        background-size: 260px 123px;
     }
     body > header a.logo {
-        background-image: url(assets/logo.png-x2);
-        background-size: 50%;
+        background-image: url(assets/logo-x2.png);
+        background-size: 72px 72px;
     }
     body > header a.logo:hover {
         background-image: url(assets/logo-hover-x2.png);
-        background-size: 50%;
+        background-size: 72px 72px;
     }
     body > footer .love {
         background-image: url(assets/love-bg-x2.png);
-        background-size: 50%;
+        background-size: 21px 21px;
     }
 }
-*/
