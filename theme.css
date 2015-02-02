@@ -217,15 +217,15 @@ only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx)
 {
     body > header {
-        background-image: url(assets/header-bg-2x.png);
+        background-image: url(assets/header-bg-x2.png);
     }
     body > header a.logo {
-        background-image: url(assets/logo.png-2x);
+        background-image: url(assets/logo.png-x2);
     }
     body > header a.logo:hover {
-        background-image: url(assets/logo-hover-2x.png);
+        background-image: url(assets/logo-hover-x2.png);
     }
     body > footer .love {
-        background-image: url(assets/love-bg-2x.png);
+        background-image: url(assets/love-bg-x2.png);
     }
 }
