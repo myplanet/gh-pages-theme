@@ -201,3 +201,10 @@ body > footer {
     padding: 20px 0;
     font-family: TradeGothic, sans-serif;
 }
+body > footer .love {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(assets/love-bg.png);
+    text-indent: -9999px;
+}
