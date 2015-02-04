@@ -112,6 +112,11 @@ article pre {
     margin: 0 0 20px;
 }
 article code {
+    background: #f0f0f0 !important;
+    padding: 0 .33em;
+    border-radius: 4px;
+}
+article pre code {
     border-radius: 4px;
     padding: 10px !important;
 }
@@ -184,7 +189,7 @@ section {
     color: #f05a28;
 }
 .showcase-content code {
-    background: #fff;
+    background: #fff !important;
 }
 .showcase-content:after {
     content: '';
