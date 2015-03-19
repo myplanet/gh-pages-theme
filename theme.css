@@ -179,6 +179,9 @@ section {
     background: #f0f0f0;
     padding: 20px 0 60px;
 }
+.showcase code {
+    background: #fff !important;
+}
 .showcase-example {
     width: 300px;
     float: left;
@@ -190,13 +193,16 @@ section {
 .showcase-content > h3 {
     color: #f05a28;
 }
-.showcase-content code {
-    background: #fff !important;
-}
 .showcase-content:after {
     content: '';
     display: block;
     clear: left;
+}
+.showcase-content-full {
+    overflow: auto; /* Prevents margin collapse */
+}
+.showcase-content-full pre {
+    margin-bottom: 0;
 }
 img.float-right {
     float: right;
