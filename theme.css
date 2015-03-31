@@ -45,14 +45,14 @@ body > header {
     text-align: center;
 }
 body > header a.logo {
-    background: transparent url(assets/logo.png) 50% 0 no-repeat;
+    background: transparent url(assets/logo.png) 0 0 no-repeat;
     display: inline-block;
     width: 72px;
     height: 80px;
     text-indent: -9999px;
 }
 body > header a.logo:hover {
-    background-image: url(assets/logo-hover.png);
+    background-position: -72px 0;
 }
 body > header h1 {
     color: #fff;
@@ -237,11 +237,10 @@ only screen and ( min-resolution: 2dppx)
     }
     body > header a.logo {
         background-image: url(assets/logo-x2.png);
-        background-size: 72px 72px;
+        background-size: 144px 72px;
     }
     body > header a.logo:hover {
-        background-image: url(assets/logo-hover-x2.png);
-        background-size: 72px 72px;
+        background-size: 144px 72px;
     }
     body > footer .love {
         background-image: url(assets/love-bg-x2.png);
